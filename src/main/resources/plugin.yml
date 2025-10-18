@@ -1,0 +1,4 @@
+name: AutoTransfer
+version: '1.0.0'
+main: dev.zerek.autoTransfer.AutoTransfer
+api-version: '1.21'

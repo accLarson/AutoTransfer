@@ -1,0 +1,12 @@
+# AutoTransfer configuration
+# Message sent to a player 5 seconds after they join, shown as an action bar.
+# Supports MiniMessage tags, including hex colors like <#ffffff>.
+join-message: "<yellow>Transferring to feather64.net in 2m."
+
+# Message shown 2 seconds before the transfer occurs, as a title.
+pre-transfer-message: "<yellow>Transferring to F64"
+
+# The command template to execute from console when transferring.
+# Use the <player> placeholder, which will be replaced with the player's name.
+# Leading slash is allowed and will be stripped automatically.
+transfer-command: "transfer feather64.net 25565 <player>"
